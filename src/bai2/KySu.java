@@ -25,5 +25,10 @@ public class KySu extends CanBo {
         this.major = major;
     }
 
+    @Override
+    public String toString() {
+        return "KySu{" + "name=" + super.getName() + ", age=" + super.getAge() + ", gender=" + super.getGender() + ", address=" + super.getAddress() + "major=" + major + '}';
+    }
+
     
 }

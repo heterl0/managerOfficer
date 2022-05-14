@@ -24,4 +24,10 @@ public class CongNhan extends CanBo{
     public void setLevel(int level) {
         this.level = level;
     }
+
+    @Override
+    public String toString() {
+        return "CongNhan{" + "name=" + super.getName() + ", age=" + super.getAge() + ", gender=" + super.getGender() + ", address=" + super.getAddress() + "level=" + level + '}';
+    }
+    
 }
